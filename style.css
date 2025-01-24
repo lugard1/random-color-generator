@@ -1,8 +1,31 @@
 body {
   margin: 0;
+  font-family: cursive;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  /* justify-content: center; */
-  height: 100vh;
+  justify-content: center;
+  margin: 10px 20px 30px;
+}
+
+.color-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid black 2px;
+  border-radius: 5px;
+  margin: 5px;
+  width: 300px;
+  height: 150px;
+  background: green;
+  color: #fff;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
